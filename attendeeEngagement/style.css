@@ -1,0 +1,238 @@
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background-color: white;
+}
+
+.ems-header{
+  position: relative;
+}
+
+.ems-nav{
+  position: fixed;
+  height: 80px;
+  width: calc(100vw - 300px);
+  top: 0;
+  right: 0;
+  background: #E5E5E5;
+}
+
+.ems-sidebar-wrap{ 
+background: rgba(13, 13, 13, 0.9);
+position: relative;
+width: fit-content;
+height: fit-content;
+}
+
+.ems-sidebar{
+  position: fixed;
+  height: 100vh;
+  width: 300px;
+  bottom: 0;
+  background: rgba(13, 13, 13, 0.9);
+}
+
+.app-wrap-ems{
+  position: relative;
+  top: 80px;
+  left: 300px;
+  width: 100%;
+  /* background-color: red; */
+  height: 100%;
+  padding: 30px 0 0 80px;
+}
+
+.app-header-ems{
+  font-weight: bold;
+font-size: 30px;
+line-height: 41px;
+color: rgba(13, 13, 13, 0.8);
+}
+
+.section-divider{
+  width: 100vw;
+  height: 1.3px;
+  background: #E5E5E5;
+  margin-top: 10px;
+}
+
+.app-sub-header-ems{
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 41px;
+  color: rgba(13, 13, 13, 0.8);
+  margin-top: 10px;
+}
+
+.attendee-engagement-switch{
+  display: flex;
+  margin-top: 20px;
+}
+
+.attendee-engagement-switch .switch-engagement{
+margin-right: 70px;
+font-size: 14px;
+line-height: 19px;
+color: rgba(13, 13, 13, 0.8);
+cursor: pointer;
+}
+
+.active-engagement-ems{
+background: #F87023;
+height: 3px;
+width: 110%;
+position: relative;
+top: 5px;
+}
+
+
+
+.switch-hr-line{
+  width: 100%;
+  height: 2px;
+  background-color: #E5E5E5;
+  margin-top: 3px;
+}
+
+.attendee-engagement-section{
+  width: 458px;
+}
+
+.add-engagement-card{
+  width: 232px;
+height: 212px;
+background: #FFFFFF;
+border: 1px solid #E5E5E5;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+margin-top: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.add-engagement-card img{
+  background-size: contain;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.add-engagement-card p{
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.8);
+  margin-top: 21px;
+}
+
+.engaement-survey-modal{
+  width: 100%;
+}
+
+.engaement-survey-modal select{
+  width: 100%;
+  height: 35px;
+  border-radius: 3px;
+  border: 1px solid rgba(128, 128, 128, 0.541);
+  outline: none;
+  margin-bottom: 7px;
+  padding-left: 8px;
+  font-size: 14px;
+line-height: 19px;
+color: rgba(13, 13, 13, 0.8);
+}
+
+.engaement-survey-modal input{
+  width: 100%;
+  height: 35px;
+  border-radius: 3px;
+  border: 1px solid rgba(128, 128, 128, 0.541);
+  outline: none;
+  margin-bottom: 7px;
+  font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+color: rgba(13, 13, 13, 0.8);
+padding-left: 10px;
+}
+
+.engaement-survey-modal input::placeholder{
+  padding-left: 10px;
+}
+
+.engaement-survey-question-types{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.engaement-survey-question-types .engaement-survey-card1{
+  width: 49%;
+  height: 120px;
+  border: 1px solid rgba(128, 128, 128, 0.541);
+  padding: 10px ;
+}
+.surveey-card-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.surveey-card-header-checkbox{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #DDDDDD;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.surveey-card-header-checkbox-ck{
+  background: rgba(13, 13, 13, 0.8);
+border: 1px solid rgba(13, 13, 13, 0.8);
+width: 18px;
+height: 18px;
+border-radius: 50%;
+}
+.surveey-card-header span{
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: rgba(13, 13, 13, 0.8);
+}
+
+.surveey-card-paragraph{
+  font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+margin-top: 10px;
+color: rgba(13, 13, 13, 0.8);
+
+}
+
+.btn-ems-outline{
+  background-color: transparent;
+  border: 0.5px solid #0D0D0D;
+  width: 120px;
+  height: 45px;
+  border-radius: 3px;
+  color: black;
+}
+
+.btn-ems-solid{
+  background-color: #0D0D0D;
+  border: 0.5px solid #0D0D0D;
+  width: 120px;
+  height: 45px;
+  border-radius: 3px;
+  color: white;
+}
+
+.hide-engagement{
+  display: none;
+}
